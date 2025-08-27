@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio astronauta</title>
+    <link rel="shortcut icon" href="imagens/astronaut.png" type="image/x-icon">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #container{
+            position: relative;
+            background: black url(imagens/espaco.jpg) center center no-repeat ;
+            background-size: cover;
+            height: 100vh;
+        }
+        #conteudo{
+        
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+            
+        }
+
+        #imagem{
+              width: 1000px;
+
+              max-width: 100%;
+
+              height: auto;
+        }
+        /*Isso força a tentar ser 1200px, mas ainda ajusta em telas pequenas*/
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <img src="imagens/astronauta.png" alt="astronauta" id="imagem">
+
+        </article>
+    </section>
+</body>
+</html>
