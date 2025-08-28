@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            min-width: 400px;
+            border-collapse: collapse;
+            margin-bottom: 50px;
+        }
+        td, th {
+            border: black 1px solid;
+            padding: 10px;
+           
+        }
+        th{ 
+            text-align: center;
+        }
+        tr.destaque{
+           /*melhor usar a forma de baixo*/
+        }
+        col.cnome{
+            background-color: blueviolet;
+        }
+        col.csexo{
+            background-color: yellow;
+        }
+        col.cgruposei{
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <!-- Criei um grupo com as proximas duas colunas
+             no caso foram sexo e idade -->
+            <col class="cgruposei" span="2">
+            
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Faxineira</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Motorista</td>
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>39</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Patrícia</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Ricardo</td>
+            <td>M</td>
+            <td>50</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Sandra</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Advogada</td>
+        </tr>
+        <tr class="destaque">
+            <td>Felipe</td>
+            <td>M</td>
+            <td>33</td>
+            <td>Chef de Cozinha</td>
+        </tr>
+    </table>
+</body>
+</html>
