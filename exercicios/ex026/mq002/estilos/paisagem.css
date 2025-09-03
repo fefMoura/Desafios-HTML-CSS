@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Orientação paisagem - deitado */
-{
-    
+body{
+      background-image: url(../imagens/cev-landscape.jpg);
+
 }
