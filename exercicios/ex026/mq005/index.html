@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <ul>
+            <li> <a href="#">Opção 1</a> </li>
+            <li> <a href="#">Opção 2</a> </li>
+            <li> <a href="#">Opção 3</a> </li>
+            <li> <a href="#">Opção 4</a> </li>
+            <li> <a href="#">Opção 5</a> </li>
+        </ul>
+    </menu>
+</header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsum possimus, corporis, est repellendus illum nobis ab consectetur perspiciatis tempora ipsam voluptates ea autem omnis aspernatur eaque. Quisquam, placeat sapiente.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus at ullam obcaecati suscipit veritatis. Dolore est perspiciatis eos quo numquam necessitatibus sunt nam similique voluptates quam id, possimus non expedita.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ut repellat dolores odit aperiam delectus veniam temporibus a perspiciatis rem! Nostrum sed aliquid voluptatibus, iste error blanditiis omnis delectus autem.</p>
+    </article>
+    </main>
+    <script>
+    function clickMenu(){
+        if(itens.style.display == 'block'){
+            itens.style.display = 'none'
+        } else{
+           itens.style.display = 'block' 
+        }
+    }</script>
+</body>
+</html>
