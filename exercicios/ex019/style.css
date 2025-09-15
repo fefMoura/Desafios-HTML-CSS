@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*
+em HTML é id = em CSS é # (só pode usar uma vez por página)
+em HTML é class = em CSS é . (pode usar várias vezes por página)
+
+*/
+
+
+body{
+    background-color: rgb(102, 114, 110);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #03b65d;
+
+}
+
+h2{
+    color: #00ff80;
+}
+
+#principal{
+    text-align: center;
+    color: red;
+    background-color: rgb(0, 183, 255);
+    color: black;
+}
+
+.subtitulos_html{
+    color: #00ff2a;
+    text-decoration: underline;
+}
+
+.subtitulos_css{
+    color: #00ffea;
+    text-decoration: underline;
+}
+
+#titulo_css{
+    color: #00a2ff;
+}
+
+.basico{
+    color: yellow;
+}
+
+.destaque{
+    background-color: black;
+    color: red;
+}
