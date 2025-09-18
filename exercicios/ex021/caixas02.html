@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(167, 167, 167);
+    
+}
+
+nav {
+    background-color: rgb(85, 85, 85);
+    padding: 3px;
+    box-shadow:  2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+nav > a{    
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 100px;
+  
+}
+
+nav >a:hover {
+    color: yellow;
+}
+
+header {
+    background-color: lightgray;
+        color: rgb(0, 0, 0); 
+        padding: 10px;
+        margin: 10px ;
+}
+
+h1 {
+       box-shadow:  2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+         text-align: center;
+         width: fit-content;
+
+}   
+
+
+article{    
+
+    background-color: rgb(0, 68, 255);
+    border-radius: 5px;
+
+}
+
+article > aside{
+    background-color: rgb(0, 191, 255);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+ 
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+}
+main{   
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px ;
+    box-shadow:  2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px 0px;
+   
+}
+
+footer{ 
+    background-color: black;
+    color: white; 
+    padding: 1px;
+    margin: 0px;
+    text-align: center;
+   
+}
+
+footer > p {
+    margin: 0;
+   
+}
+
+div#bola {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow:  2px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+</style>
+
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+
+        <section id="notificas">
+
+            <article> <h2>Noticias sobre o Brasil</h2>
+                <p>Hoje é um dia ensolarado no Brasil.</p>
+                <p>O Brasil é um país tropical.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article></article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+
+    <div id="bola"></div>
+
+</body>
+</html>
